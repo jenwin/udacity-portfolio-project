@@ -1,0 +1,112 @@
+/*mobile*/
+@media screen and ( max-width: 700px ) {
+
+/*navigation links*/
+.top-nav {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.nav-list {
+  background-color: #1e2025;
+  margin: 0;
+  opacity: 0.9;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+/*navigation logo*/
+.circle {
+  height: 4.9rem;
+  margin: 0.73rem auto;
+  width: 4.9rem;
+}
+
+.logo {
+  font-size: 2.7rem;
+  padding-top: 0.4rem;
+}
+
+/*name, title, line*/
+.name-intro {
+  padding-top: 14rem;
+}
+
+.first-last {
+  font-size: 2.5rem;
+}
+
+.front-end {
+  font-size: 1.4rem;
+}
+
+#line {
+  margin: 2.6rem auto;
+}
+
+/*paragraph*/
+.para-intro {
+  margin: -3rem 4%;
+  padding: 1.5rem;
+}
+
+/*dots, featured*/
+.dot {
+  height: 0.4rem;
+  width: 0.4rem;
+}
+
+.featured-title {
+  font-size: 2rem;
+  padding-bottom: 1.3rem;
+}
+
+/*images, headings, text, links*/
+.row {
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+}
+
+.featured-images {
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+}
+
+.photo-three {
+  margin-top: 0.2rem;
+}
+
+.photo-four {
+  margin-top: 0.5rem;
+}
+
+.image-set {
+  width: 100%;
+}
+
+.image-title {
+  font-size: 1.8rem;
+}
+
+.image-text {
+  font-size: 1.4rem;
+}
+
+/*footer: social media links, website creator*/
+.ftr-content {
+  margin-bottom: 2rem;
+  padding-top: 2.5rem;
+}
+
+.fab {
+  font-size: 3.8rem;
+  padding: 0.5rem;
+}
+
+.ftr-name {
+  font-size: 0.9rem;
+  padding: 2rem 0;
+}
+}
