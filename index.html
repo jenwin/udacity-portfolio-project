@@ -16,167 +16,110 @@
 </head>
 
 <body>
-
   <!-- header/navigation: logo/links -->
-  <header class="top-hdr">
+<header class="top-hdr">
+  <nav class="top-nav">
+      <a class="logo-link" href="#">
+        <h1 class="logo">Jn</h1>
+      </a>
+    <ul class="nav-list">
+      <li class="nav-link">
+        <a class="nav-click" href="#">Featured Work</a>
+      </li>
+      <li class="nav-link">
+        <a class="nav-click contact-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
 
-    <nav class="top-nav">
+<!-- main content: name/title/paragraph -->
+<main>
+  <section class="name-intro">
+    <h1 class="first-last">JENNIFER NGUYEN</h1>
+    <h2 class="front-end">Front End Developer</h2>
+  </section>
 
-      <div class="circle">
+  <!-- line -->
+  <hr id="line">
 
-        <a class="logo-link" href="#">
-          <h1 class="logo">Jn</h1>
-        </a>
+  <article class="para-intro">
+    <h3 class="para">Hello. I'm Jennifer.</h3>
+    <p>Enjoy some pastries. ^.^ Pastry candy canes fruitcake tiramisu soufflé fruitcake carrot cake brownie pastry. Jelly brownie pie sweet cheesecake. Dessert icing bonbon pastry topping. Jelly toffee sweet roll biscuit. Fruitcake donut wafer
+      bonbon lollipop. Sweet roll wafer chocolate bar sweet icing jelly-o gingerbread marshmallow. Cupcake chocolate cake fruitcake fruitcake. Cookie oat cake cookie jelly bonbon. Pie marzipan danish pie pudding bear claw.
+    </p>
+  </article>
 
-      </div>
+  <!-- dots -->
+  <div class="container">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
 
-      <ul class="nav-list">
-
-        <li class="nav-link">
-          <a class="nav-click" href="#">Portfolio</a>
-        </li>
-
-        <li class="nav-link">
-          <a class="nav-click" href="#">Contact</a>
-        </li>
-
-      </ul>
-
-    </nav>
-
-  </header>
-
-  <!-- main content: name/title/paragraph -->
-  <main>
-
-    <section class="name-intro">
-
-      <h1 class="first-last">JENNIFER NGUYEN</h1>
-
-      <h2 class="front-end">Front End Developer</h2>
-
-    </section>
-
-    <!-- line -->
-    <hr id="line">
-
-    <article class="para-intro">
-
-      <h3 class="para">Hello. I'm Jennifer.</h3>
-
-      <p>Enjoy some pastries. ^.^ Pastry candy canes fruitcake tiramisu soufflé fruitcake carrot cake brownie pastry. Jelly brownie pie sweet cheesecake. Dessert icing bonbon pastry topping. Jelly toffee sweet roll biscuit. Fruitcake donut wafer
-        bonbon lollipop. Sweet roll wafer chocolate bar sweet icing jelly-o gingerbread marshmallow. Cupcake chocolate cake fruitcake fruitcake. Cookie oat cake cookie jelly bonbon. Pie marzipan danish pie pudding bear claw.
-      </p>
-
-    </article>
-
-    <!-- dots -->
-    <div class="container">
-
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-
-    </div>
-
-    <!-- featured content with images -->
-    <section class="featured-content">
-
-      <h2 class="featured-title">Featured Work</h2>
-
+  <!-- featured content with images -->
+  <section class="featured-content">
+    <h2 class="featured-title">Featured Work</h2>
+    <div class="column">
       <!-- row 1 -->
       <div class="row">
-
-        <div class="featured-images">
-
+        <div class="featured-images photo-one">
           <a href="https://jenwin.github.io/matching-card-game/">
             <img class="image-set" src="images/jenwin-matching-card-game.jpg" alt="matching card game">
           </a>
-
           <h3 class="image-title">Matching Card Game</h3>
-
           <p class="image-text">Featured on <a class="image-click" href="https://jenwin.github.io/matching-card-game/">Github</a></p>
-
         </div>
-
-        <div class="featured-images">
-
+        <div class="featured-images photo-two">
           <a href="https://jenwin.github.io/classic-arcade-game/">
             <img class="image-set" src="images/jenwin-arcade-game.jpg" alt="classic arcade game">
           </a>
-
           <h3 class="image-title">Classic Arcade Game</h3>
-
           <p class="image-text">Featured on <a class="image-click" href="https://jenwin.github.io/classic-arcade-game/">Github</a></p>
-
         </div>
-
       </div>
 
       <!-- row 2 -->
       <div class="row">
-
         <div class="featured-images photo-three">
-
           <a href="https://github.com/jenwin/feed-reader-testing">
             <img class="image-set" src="images/jenwin-feedreader.jpg" alt="feed reader testing with jasmine framework">
           </a>
-
           <h3 class="image-title">Feed Reader Testing</h3>
-
           <p class="image-text">Featured on <a class="image-click" href="https://github.com/jenwin/feed-reader-testing">Github</a></p>
-
         </div>
 
         <div class="featured-images photo-four">
-
           <a href="https://github.com/jenwin/restaurant-reviews-stage-one">
             <img class="image-set" src="images/jenwin-restaurant-reviews.jpg" alt="restaurant reviews app">
           </a>
-
           <h3 class="image-title">Restaurant Reviews App</h3>
-
           <p class="image-text">Featured on <a class="image-click" href="https://github.com/jenwin/restaurant-reviews-stage-one">Github</a></p>
-
         </div>
-
       </div>
-
-    </section>
-
-  </main>
-
-  <!-- footer: social media links/website creator -->
-  <footer class="ftr-content">
-
-    <div class="ftr-links">
-
-      <a class="ftr-click" href="https://www.github.com/jenwin">
-        <i class="fab fa-github-square"></i>
-      </a>
-
-      <a class="ftr-click" href="#">
-        <i class="fab fa-twitter-square"></i>
-      </a>
-
-      <a class="ftr-click" href="#">
-        <i class="fab fa-facebook"></i>
-      </a>
-
-      <a class="ftr-click" href="#">
-        <i class="fab fa-linkedin"></i>
-      </a>
-
     </div>
+  </section>
+</main>
 
-    <div class="ftr-name">
-
-      <p>© Jennifer Nguyen</p>
-
-    </div>
-
-  </footer>
-
+<!-- footer: social media links/website creator -->
+<footer class="ftr-content">
+  <div class="ftr-links">
+    <a class="ftr-click" href="https://www.github.com/jenwin">
+      <i class="fab fa-github-square"></i>
+    </a>
+    <a class="ftr-click" href="#">
+      <i class="fab fa-twitter-square"></i>
+    </a>
+    <a class="ftr-click" href="#">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a class="ftr-click" href="#">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+  <div class="ftr-name">
+    <p>© Jennifer Nguyen</p>
+  </div>
+</footer>
 </body>
-
 </html>
