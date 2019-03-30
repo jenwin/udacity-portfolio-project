@@ -4,6 +4,11 @@
 and ( min-width: 768px )
 and ( max-width: 1300px )
 and ( orientation: portrait ) {
+/*dots, featured*/
+.featured-title {
+  padding-bottom: 0;
+}
+
 /*images, headings, text, links*/
 .column {
   flex-direction: column;
@@ -17,6 +22,7 @@ and ( orientation: portrait ) {
 }
 
 .image-set {
+  height: 75%;
   width: 90%;
 }
 
@@ -32,60 +38,6 @@ and ( orientation: portrait ) {
 }
 }
 
-@media screen
-and ( min-width: 1024px )
-and ( max-width: 1300px )
-and ( orientation: portrait ) {
-/*navigation links*/
-.nav-link {
-  margin-top: 1.13rem;
-}
-
-.contact-link {
-  margin-right: 4.4rem;
-}
-
-/*images, headings, text, links*/
-.image-set {
-  height: 75%;
-}
-
-.image-title {
-  font-size: 1.35rem;
-}
-
-.image-text {
-  font-size: 1.15rem;
-}
-}
-
-@media screen
-and ( min-width: 768px )
-and ( max-width: 1023px )
-and ( orientation: portrait ) {
-/*navigation links*/
-.nav-link {
-  margin-top: 1.3rem;
-}
-
-.contact-link {
-  margin-right: 4.5rem;
-}
-
-/*images, headings, text, links*/
-.image-set {
-  height: 71%;
-}
-
-.image-title {
-  font-size: 1.25rem;
-}
-
-.image-text {
-  font-size: 1.12rem;
-}
-}
-
 /*tablets*/
 /*landscape*/
 @media screen
@@ -95,6 +47,11 @@ and ( orientation: landscape ) {
 /*navigation logo*/
 .logo {
   margin-left: 7.5rem;
+}
+
+/*dots, featured*/
+.featured-title {
+  margin-bottom: 0;
 }
 
 /*images, headings, text, links*/
@@ -110,6 +67,11 @@ and ( orientation: landscape ) {
 /*navigation links*/
 .nav-link {
   margin-top: 1.3rem;
+}
+
+/*dots, featured*/
+.featured-title {
+  margin-bottom: 0;
 }
 
 /*images, headings, text, links*/
@@ -145,7 +107,6 @@ and ( orientation: landscape ) {
 /*mobile*/
 /*portrait*/
 @media screen
-and ( min-width: 300px )
 and ( max-width: 767px )
 and ( orientation: portrait ) {
 /*navigation links*/
@@ -189,23 +150,32 @@ and ( orientation: portrait ) {
 }
 
 #line {
-  margin: 2.6rem auto;
+  margin: 2.6rem auto 0 auto;
 }
 
 /*paragraph*/
+.para {
+  font-size: 1.3rem;
+}
+
 .para-intro {
-  margin: -3rem 4%;
-  padding: 1.5rem;
+  font-size: 1.3rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  width: 90%;
 }
 
 /*dots, featured*/
+.container {
+  margin-top: -1.1rem;
+}
+
 .dot {
   height: 0.4rem;
   width: 0.4rem;
 }
 
 .featured-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-bottom: 0;
 }
 
@@ -260,7 +230,7 @@ and ( orientation: portrait ) {
 
 /*navigation logo*/
 .logo {
-  padding-left: 3.6rem;
+  padding-left: 3.7rem;
 }
 
 /*images, headings, text, links*/
@@ -279,21 +249,17 @@ and ( max-width: 410px )
 and ( orientation: portrait ) {
 /*navigation links*/
 .nav-list {
-  padding-left: 4.2rem;
+  padding-left: 4.1rem;
 }
 
 /*navigation logo*/
 .logo {
-  padding-left: 2.6rem;
+  padding-left: 2.7rem;
 }
 
 /*images, headings, text, links*/
 .image-title {
-  font-size: 1.5rem;
-}
-
-.image-text {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 }
 
@@ -303,12 +269,12 @@ and ( max-width: 374px )
 and ( orientation: portrait ) {
 /*navigation links*/
 .nav-list {
-  padding-left: 3.6rem;
+  padding-left: 3.65rem;
 }
 
 /*navigation logo*/
 .logo {
-  padding-left: 2rem;
+  padding-left: 2.2rem;
 }
 
 /*name, title, line*/
@@ -322,11 +288,11 @@ and ( orientation: portrait ) {
 
 /*images, headings, text, links*/
 .image-title {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
 }
 
 .image-text {
-  font-size: 1.2rem;
+  font-size: 1.13rem;
 }
 }
 
@@ -340,7 +306,7 @@ and ( orientation: portrait ) {
 
 /*navigation logo*/
 .logo {
-  padding-left: 1rem;
+  padding-left: 1.1rem;
 }
 
 /*name, title, line*/
@@ -364,6 +330,23 @@ and ( orientation: landscape ) {
   margin-left: 4rem;
 }
 
+/*name, title, line*/
+#line {
+  margin: 2.8rem auto;
+}
+
+/*paragraph*/
+.para-intro {
+  padding: 0;
+  width: 80%;
+}
+
+/*dots, featured*/
+.featured-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
 /*images, headings, text, links*/
 .column {
   flex-direction: column;
@@ -373,7 +356,6 @@ and ( orientation: landscape ) {
   -webkit-box-orient: vertical;
 }
 
-/*images, headings, text, links*/
 .image-set {
   width: 90%;
 }
@@ -422,6 +404,11 @@ and ( orientation: landscape ) {
   margin-right: 3.5rem;
 }
 
+/*dots, featured*/
+.container {
+  padding: 0.5rem 0 0 0;
+}
+
 /*images, headings, text, links*/
 .image-set {
   height: 68%;
@@ -451,13 +438,31 @@ and ( orientation: landscape ) {
 
 /*name, title, line*/
 .first-last {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+}
+
+.front-end {
+  font-size: 1.4rem;
+}
+
+#line {
+  margin: 2.6rem auto;
+}
+
+/*paragraph*/
+.para,
+.para-intro {
+  font-size: 1.3rem;
 }
 
 /*dots, featured*/
+.container {
+  padding: 0;
+}
+
 .featured-title {
   font-size: 1.9rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 /*images, headings, text, links*/
@@ -494,13 +499,32 @@ and ( orientation: landscape ) {
 
 /*name, title, line*/
 .first-last {
-  font-size: 2.6rem;
+  font-size: 2.3rem;
+}
+
+.front-end {
+  font-size: 1.45rem;
+}
+
+#line {
+  margin: 2.6rem auto;
 }
 
 /*dots, featured*/
+.container {
+  padding: 0.5rem 0 0 0;
+}
+
 .featured-title {
-  font-size: 2rem;
-  padding-bottom: 1rem;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+/*paragraph*/
+.para,
+.para-intro {
+  font-size: 1.3rem;
+  width: 85%;
 }
 
 /*images, headings, text, links*/

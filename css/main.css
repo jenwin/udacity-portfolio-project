@@ -10,6 +10,7 @@ html {
   background: linear-gradient(to bottom left, #f6beed, #e2a5ed, #c48ff1, #997ef8, #4d71ff) fixed;
   font-family: "Open Sans Condensed", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /*navigation links*/
@@ -24,6 +25,7 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-link {
@@ -51,7 +53,6 @@ html {
 .contact-link {
   margin-right: 6.5rem;
 }
-
 
 /*navigation logo*/
 .logo {
@@ -93,9 +94,10 @@ html {
 /*paragraph*/
 .para-intro {
   font-size: 1.5rem;
-  margin: 3rem 12%;
+  margin: auto;
   padding: 0 1.5rem;
   text-align: justify;
+  width: 70%;
 }
 
 .para {
@@ -105,7 +107,7 @@ html {
 
 /*dots, featured*/
 .container {
-  padding: 1rem;
+  padding: 1rem 0 0 0;
   text-align: center;
 }
 
